@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="first.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="first.js"></script>
+    <title>Document</title>
+</head>
+<body ng-app="myApp" ng-controller="myCtrl" ng-init="myVar = 'images.jpg'">
+    <div class="main" >
+        <div class="row">
+            <div class="column">
+                <h1> {{ head }} </h1>
+                <img ng-src="{{myVar}}">
+                <p> {{para}} </p>
+            </div>
+            <div class="column">
+                <h1> {{ head }} </h1>
+                <img ng-src="{{myVar}}">
+                <p> {{para}} </p>
+            </div>
+            <div class="column">
+                <h1> {{ head }} </h1>
+                <img ng-src="{{myVar}}">
+                <p> {{para}} </p>
+            </div>
+            <div class="column">
+                <h1> {{ head }} </h1>
+                <img ng-src="{{myVar}}">
+                <p> {{para}} </p>
+            </div>
+        </div>
+        <div class="second">
+            <div class="large">
+                <h1> {{ head }} </h1>
+                <img ng-src="{{myVar}}">
+                <p> {{para}} </p>
+            </div>
+            <div class="large">
+                <h1> {{ head }} </h1>
+                <img ng-src="{{myVar}}">
+                <p> {{para}} </p>
+            </div>
+        </div>
+
+        <div class="third">
+            <div class="small">
+                <h1> {{ head }} </h1>
+                <img ng-src="{{myVar}}">
+                <p> {{para}} </p>
+            </div>
+            <div class="small A">
+                <h1> {{ head }} </h1>
+                <img ng-src="{{myVar}}">
+                <p> {{para}} </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

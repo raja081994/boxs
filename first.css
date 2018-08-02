@@ -1,0 +1,62 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.row{
+    width: 100%;
+   
+}
+.column{
+    width: 20%;
+    margin: 20px;
+    float: left;
+    padding: 5px;
+    background-color: orange;
+}
+.column p{
+    margin: 5px;
+    text-align: justify;
+}
+.column img{
+    width: 25%;
+}
+.second{
+    width: 100%;
+}
+.large{
+   align-items: center;
+    width: 45%;
+   margin: 25px;
+    float: left;
+    
+    background-color: rgb(243, 108, 191);
+}
+
+.large img{
+    position: relative;
+    left: 25%;
+    width: 25%;
+}
+
+.small{
+    align-items: center;
+    width: 35%;
+   margin: 25px;
+    float: left;
+    
+    background-color: rgb(209, 133, 228);
+}
+
+.A{
+    width: 50%;
+    height: 60vh;
+}
+
+.small img{
+    width: 25%;
+    position: relative;
+    left: 25%;
+
+}
